@@ -1,0 +1,6 @@
+select product_id from Products where Products.low_fats='Y' and Products.recyclable='Y';
+
+//Comments
+
+1. Straight forward Questions
+2. Some solutions where 30ms faster - how can you even optimise this? MAYBE COMPOSITE INDEXING??
